@@ -46,5 +46,54 @@ A scalable REST API with JWT Authentication, Role-Based Access Control (RBAC), a
 
 ---
 
+
 ## 📂 Project Structure
+
+auth-crud-api/
+│
+├── backend/
+│   ├── config/
+│   │   ├── db.js
+│   │   └── token.js
+│   │
+│   ├── controllers/
+│   │   └── auth.controller.js
+│   │
+│   ├── model/
+│   │   └── user.model.js
+│   │
+│   ├── routes/
+│   │   └── auth.route.js
+│   │
+│   ├── .env
+│   ├── index.js
+│   ├── package.json
+│   └── package-lock.json
+│
+├── frontend/
+│   ├── public/
+│   ├── node_modules/
+│   │
+│   └── src/
+│       ├── assets/
+│       │
+│       ├── Component/
+│       │   └── Nav.jsx
+│       │
+│       ├── Context/
+│       │   └── AuthContext.jsx
+│       │
+│       ├── pages/
+│       │   ├── Home.jsx
+│       │   ├── Login.jsx
+│       │   └── SignUp.jsx
+│       │
+│       ├── App.jsx
+│       ├── App.css
+│       ├── index.css
+│       └── main.jsx
+│
+├── .gitignore
+└── README.md
+
 
