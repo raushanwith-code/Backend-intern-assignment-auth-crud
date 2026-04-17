@@ -12,10 +12,10 @@ function Nav() {
 
   return (
     <>
-      {/* ================= FIRST NAVBAR ================= */}
+    
       <div className="w-full h-[40px] border-b bg-white flex items-center justify-between px-2">
 
-        {/* Logo */}
+        
         <img src={logo} alt="logo" className="w-[120px]" />
 
        
